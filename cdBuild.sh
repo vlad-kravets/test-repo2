@@ -1,8 +1,3 @@
-$(apk add -q dirname)
-echo ${REPO}
-echo ${DIRECTORY}
-echo ${TASK}.sh
-
 BASEDIR=$(dirname "$0")
 
 task_script="${BASEDIR}/${DIRECTORY}/cd-scripts/${TASK}.sh"
